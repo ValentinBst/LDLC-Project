@@ -15,7 +15,7 @@ public class ResetPosition : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.y <= -1f)
+        if(transform.position.y <= -3f)
         {
             transform.position = positionDeDepart;
         }
