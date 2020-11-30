@@ -5,7 +5,6 @@ using UnityEngine;
 public class Shoot : MonoBehaviour {
 public Rigidbody projectile;
 public Transform Spawnpoint;
-
    
     public GameObject Sphere;
     void Start()
